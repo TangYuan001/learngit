@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ll_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:background="#FF267CD6"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="15dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@mipmap/head"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:id="@+id/textView_login"
+                android:text="请登录"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@mipmap/fivepointstar"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:text="我的收藏"
+                android:textSize="14dp"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="70dp"/>
+            <ImageView
+                android:src="@mipmap/download"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginRight="20dp"/>
+            <TextView
+                android:text="完成"
+                android:textSize="14dp"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
