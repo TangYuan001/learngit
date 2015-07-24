@@ -1,3 +1,0 @@
-ccid-driver.o: ccid-driver.c ../config.h
-
-../config.h:
